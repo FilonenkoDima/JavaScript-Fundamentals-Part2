@@ -55,3 +55,16 @@ console.log(percantageOfUkraineToWorldPopulation3);
 console.log(percantageOfUSAToWorldPopulation3);
 */
 
+// assignment to lecture - Functions Calling Other Functions
+
+const percantageOfWorld3 = population => (population / 7900) * 100;
+
+const describePopulation = (country, population) => `${country} has ${population} million people, wich is about ${percantageOfWorld3(population)}% of the world.`;
+
+const decribePopulationChina = describePopulation("China", 1441);
+const decribePopulationUkraine = describePopulation("Ukraine", 30);
+const decribePopulationUSA = describePopulation("USA", 545);
+
+console.log(decribePopulationChina);
+console.log(decribePopulationUkraine);
+console.log(decribePopulationUSA);
