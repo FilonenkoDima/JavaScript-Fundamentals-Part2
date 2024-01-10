@@ -1,6 +1,8 @@
 'use strict';
 
+/*
 //assignment to lecture - Functions
+
 function describeCountry(country, population, capitalCity) {
    return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 }
@@ -12,3 +14,4 @@ const infoEngland = describeCountry('England', 70, 'London');
 console.log(infoUkraine);
 console.log(infoUSA);
 console.log(infoEngland);
+*/
