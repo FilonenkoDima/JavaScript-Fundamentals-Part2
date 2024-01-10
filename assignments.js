@@ -42,3 +42,14 @@ console.log(percantageOfChainaToWorldPopulation2);
 console.log(percantageOfUkraineToWorldPopulation2);
 console.log(percantageOfUSAToWorldPopulation2);
 */
+
+// assignment to lecture - Arrow Functions
+const percantageOfWorld3 = population => (population / 7900) * 100;
+
+const percantageOfChainaToWorldPopulation3 = percantageOfWorld3(1441);
+const percantageOfUkraineToWorldPopulation3 = percantageOfWorld3(30);
+const percantageOfUSAToWorldPopulation3 = percantageOfWorld3(545);
+
+console.log(percantageOfChainaToWorldPopulation3);
+console.log(percantageOfUkraineToWorldPopulation3);
+console.log(percantageOfUSAToWorldPopulation3);
