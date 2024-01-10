@@ -14,7 +14,7 @@ const infoEngland = describeCountry('England', 70, 'London');
 console.log(infoUkraine);
 console.log(infoUSA);
 console.log(infoEngland);
-*/
+
 
 // assignment to lecture - Function Declaration vs Expressions
 
@@ -41,3 +41,4 @@ const percantageOfUSAToWorldPopulation2 = percantageOfWorld2(545);
 console.log(percantageOfChainaToWorldPopulation2);
 console.log(percantageOfUkraineToWorldPopulation2);
 console.log(percantageOfUSAToWorldPopulation2);
+*/
