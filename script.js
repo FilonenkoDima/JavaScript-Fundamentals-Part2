@@ -33,7 +33,7 @@ const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 
 const num = Number('23');
-*/
+
 
 // lecture: Function Declaration vs Expressions
 
@@ -57,3 +57,4 @@ const calcAge2 = function (birthYear) {
 }
 const age2 = calcAge2(2003);
 console.log(age2);
+*/
