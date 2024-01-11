@@ -89,3 +89,13 @@ function checkWinner(avgDolphins, avgKoalas) {
 checkWinner(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins1, scoreKoalas1);
 */
+
+// assignment to lecture - Introduction to Arrays
+
+const populations = [545, 40, 30, 110];
+console.log(populations.length == 4);
+
+const percantageOfWorld3 = population => (population / 7900) * 100;
+const percantages = [percantageOfWorld3(populations[0]), percantageOfWorld3(populations[1]), percantageOfWorld3(populations[2]), percantageOfWorld3(populations[3])];
+
+console.log(percantages);
