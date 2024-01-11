@@ -53,7 +53,7 @@ const percantageOfUSAToWorldPopulation3 = percantageOfWorld3(545);
 console.log(percantageOfChainaToWorldPopulation3);
 console.log(percantageOfUkraineToWorldPopulation3);
 console.log(percantageOfUSAToWorldPopulation3);
-*/
+
 
 // assignment to lecture - Functions Calling Other Functions
 
@@ -68,3 +68,4 @@ const decribePopulationUSA = describePopulation("USA", 545);
 console.log(decribePopulationChina);
 console.log(decribePopulationUkraine);
 console.log(decribePopulationUSA);
+*/
