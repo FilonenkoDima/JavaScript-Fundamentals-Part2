@@ -97,7 +97,7 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
-*/
+
 
 // lecture: Reviewing Functions
 
@@ -122,3 +122,4 @@ const yearUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearUntilRetirement(2003, 'Dima'));
 console.log(yearUntilRetirement(1970, 'Mike'));
+*/
