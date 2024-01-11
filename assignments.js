@@ -100,3 +100,14 @@ const percantages = [percantageOfWorld3(populations[0]), percantageOfWorld3(popu
 
 console.log(percantages);
 */
+
+// assignment to lecture - Basic Array Operations(Methods)
+
+const neighbours = ['Poland', 'Moldova', 'Romania', 'Slovakia'];
+neighbours.push('Utopia');
+neighbours.pop();
+
+if (!neighbours.includes('Germany')) console.log('Probably not a central European country :D');
+
+neighbours[neighbours.indexOf('Moldova')] = 'Republic of Moldova';
+console.log(neighbours);
