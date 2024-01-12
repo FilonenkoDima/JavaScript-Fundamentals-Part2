@@ -226,3 +226,39 @@ const dima = {
 
 console.log(dima);
 */
+
+// lecture: Dot vs. Bracket Notation
+
+const dima = {
+   firstName: 'Dima',
+   lastName: 'Filonenko',
+   age: 2037 - 2003,
+   job: 'developer',
+   friends: ['Ivan', 'Mark', 'Bogdan']
+};
+
+console.log(dima);
+
+console.log(dima.lastName);
+console.log(dima['lastName']);
+
+const nameKey = 'Name';
+console.log(dima['first' + nameKey]);
+console.log(dima['last' + nameKey]);
+
+// console.log(dima.'last' + nameKey);
+const interestedIn = prompt('What do you want to know about Dima? Choose between firstName, lastName, age, job and friends');
+
+if (dima[interestedIn]) {
+   console.log(dima[interestedIn]);
+
+} else {
+   console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
+}
+
+dima.location = 'Ukraine';
+dima['telegram'] = 'filonenkod';
+console.log(dima.location);
+console.log(dima.telegram);
+
+console.log(`${dima.firstName} has ${dima.friends.length} friends, and his best friend is called ${dima.friends[0]}`);
