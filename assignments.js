@@ -217,7 +217,7 @@ console.log(`${john.fullName}'s BMI (${john.calcBMI()}) is ${john.calcBMI() > ma
 for (let i = 0; i < 50; i++) {
    console.log(`Voter number ${i} is currently voiting`)
 }
-*/
+
 
 // assignment to lecture - Looping, Breaking and Continuing
 
@@ -231,4 +231,4 @@ for (let i = 0; i < populations.length; i++) {
 }
 
 console.log(percentages2)
-
+*/

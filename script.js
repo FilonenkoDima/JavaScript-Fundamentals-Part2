@@ -343,7 +343,7 @@ for (let i = 0; i < years.length; i++) {
 
 console.log(ages);
 
-// continue and break 
+// continue and break
 console.log('--- ONLY STRING --- ')
 for (let i = 0; i < dima.length; i++) {
    if (typeof dima[i] !== 'string') continue;
@@ -357,3 +357,21 @@ for (let i = 0; i < dima.length; i++) {
 }
 */
 
+// lecture: Looping Backwards and Loops in Loops
+
+const dima = [
+   'Dima',
+   'Filonenko',
+   2037 - 2003,
+   'developer',
+   ['Ivan', 'Mark', 'Bogdan'],
+   true
+];
+for (let i = dima.length - 1; i >= 0; i--)
+   console.log(i, dima[i]);
+
+for (let i = 0; i < 3; i++) {
+   console.log('--- Starting execise ---');
+   for (let j = 0; j < dima.length; j++)
+      console.log(dima[j])
+}
