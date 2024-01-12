@@ -103,6 +103,8 @@ console.log(percantages);
 
 // assignment to lecture - Basic Array Operations(Methods)
 
+//task 1
+
 const neighbours = ['Poland', 'Moldova', 'Romania', 'Slovakia'];
 neighbours.push('Utopia');
 neighbours.pop();
@@ -111,3 +113,22 @@ if (!neighbours.includes('Germany')) console.log('Probably not a central Europea
 
 neighbours[neighbours.indexOf('Moldova')] = 'Republic of Moldova';
 console.log(neighbours);
+
+//task 2
+
+let bills = [125, 555, 44];
+
+let totals = [];
+
+const calcTip = bill => {
+   if (bill >= 50 && bill <= 300) {
+      totals.push(bill * 0.15 + bill);
+      return bill * 0.15;
+   } else {
+      totals.push(bill * 0.2 + bill);
+      return bill * 0.2;
+   }
+}
+
+let tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+console.log(bills, tips, totals);
