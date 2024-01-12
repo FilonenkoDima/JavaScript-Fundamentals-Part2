@@ -162,7 +162,7 @@ console.log(myCountry.population);
 
 myCountry['population'] -= 2;
 console.log(myCountry['population']);
-*/
+
 
 // assignment to lecture - Object Methods
 
@@ -210,3 +210,5 @@ const john = {
 };
 
 console.log(`${john.fullName}'s BMI (${john.calcBMI()}) is ${john.calcBMI() > mark.calcBMI() ? 'higher' : 'lower'} than ${mark.fullName}'s (${mark.calcBMI()})!`);
+*/
+
