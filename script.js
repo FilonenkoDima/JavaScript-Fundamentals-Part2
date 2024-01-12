@@ -206,3 +206,22 @@ if (friends.includes('Steven')) {
 }
 */
 
+// lecture: Introduction to Objects
+
+const dimaArray = [
+   'Dima',
+   'Filonenko',
+   2037 - 2003,
+   'developer',
+   ['Ivan', 'Mark', 'Bogdan']
+];
+
+const dima = {
+   firstName: 'Dima',
+   lastName: 'Filonenko',
+   age: 2037 - 2003,
+   job: 'developer',
+   friends: ['Ivan', 'Mark', 'Bogdan']
+};
+
+console.log(dima);

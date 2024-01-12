@@ -99,7 +99,7 @@ const percantageOfWorld3 = population => (population / 7900) * 100;
 const percantages = [percantageOfWorld3(populations[0]), percantageOfWorld3(populations[1]), percantageOfWorld3(populations[2]), percantageOfWorld3(populations[3])];
 
 console.log(percantages);
-*/
+
 
 // assignment to lecture - Basic Array Operations(Methods)
 
@@ -132,3 +132,4 @@ const calcTip = bill => {
 
 let tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 console.log(bills, tips, totals);
+*/
