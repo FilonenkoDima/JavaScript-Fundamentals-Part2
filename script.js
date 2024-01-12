@@ -292,7 +292,7 @@ const dima = {
 console.log(dima.calcAge());
 // console.log(dima['calcAge']());
 console.log(dima.getSummary());
-*/
+
 
 // lecture: Iteration: The for Loop
 
@@ -309,3 +309,5 @@ console.log('Lifting weights repetition 10');
 
 for (let rep = 1; rep <= 10; rep++)
    console.log(`Lifting weights repetition ${rep}`);
+*/
+

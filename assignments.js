@@ -212,3 +212,8 @@ const john = {
 console.log(`${john.fullName}'s BMI (${john.calcBMI()}) is ${john.calcBMI() > mark.calcBMI() ? 'higher' : 'lower'} than ${mark.fullName}'s (${mark.calcBMI()})!`);
 */
 
+// assignment to lecture - Iteration: The for Loop
+
+for (let i = 0; i < 50; i++) {
+   console.log(`Voter number ${i} is currently voiting`)
+}
