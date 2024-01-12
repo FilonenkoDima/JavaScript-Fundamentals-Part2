@@ -204,7 +204,7 @@ console.log(friends.includes(23));
 if (friends.includes('Steven')) {
    console.log('You have a friend called a Steven');
 }
-*/
+
 
 // lecture: Introduction to Objects
 
@@ -225,3 +225,4 @@ const dima = {
 };
 
 console.log(dima);
+*/
