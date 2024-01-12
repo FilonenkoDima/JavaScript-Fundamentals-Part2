@@ -163,3 +163,50 @@ console.log(myCountry.population);
 myCountry['population'] -= 2;
 console.log(myCountry['population']);
 */
+
+// assignment to lecture - Object Methods
+
+// task 1
+const myCountry = {
+   country: 'Urkaine',
+   capital: 'Kyiv',
+   population: 30,
+   neighbours: ['Poland', 'Moldova', 'Romania', 'Slovakia'],
+
+   checkIsland: function () {
+      return this.neighbours.length === 0 ? true : false;
+   },
+
+   describe: function () {
+      console.log(`${myCountry.country} has ${myCountry.population} million ukrainian-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}. Is ${this.checkIsland() ? 'an' : 'not an'} island`);
+   },
+
+};
+
+myCountry.describe();
+
+// task 2
+
+const mark = {
+   fullName: "Mark Miller",
+   mass: 78,
+   height: 1.69,
+
+   calcBMI: function () {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+   }
+};
+
+const john = {
+   fullName: "John Smith",
+   mass: 92,
+   height: 1.95,
+
+   calcBMI: function () {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+   }
+};
+
+console.log(`${john.fullName}'s BMI (${john.calcBMI()}) is ${john.calcBMI() > mark.calcBMI() ? 'higher' : 'lower'} than ${mark.fullName}'s (${mark.calcBMI()})!`);

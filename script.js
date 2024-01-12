@@ -262,7 +262,7 @@ console.log(dima.location);
 console.log(dima.telegram);
 
 console.log(`${dima.firstName} has ${dima.friends.length} friends, and his best friend is called ${dima.friends[0]}`);
-*/
+
 
 // lecture: Object Methods
 
@@ -292,4 +292,4 @@ const dima = {
 console.log(dima.calcAge());
 // console.log(dima['calcAge']());
 console.log(dima.getSummary());
-
+*/
