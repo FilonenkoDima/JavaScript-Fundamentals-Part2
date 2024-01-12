@@ -231,7 +231,7 @@ for (let i = 0; i < populations.length; i++) {
 }
 
 console.log(percentages2)
-*/
+
 
 // assignment to lecture - Looping Backwards and Loops in Loops
 
@@ -243,3 +243,4 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
       console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
    }
 }
+*/
