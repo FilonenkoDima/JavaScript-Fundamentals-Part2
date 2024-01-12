@@ -263,3 +263,33 @@ console.log(dima.telegram);
 
 console.log(`${dima.firstName} has ${dima.friends.length} friends, and his best friend is called ${dima.friends[0]}`);
 */
+
+// lecture: Object Methods
+
+const dima = {
+   firstName: 'Dima',
+   lastName: 'Filonenko',
+   birthYear: 2003,
+   job: 'developer',
+   friends: ['Ivan', 'Mark', 'Bogdan'],
+   hasDrivenLicense: true,
+
+   // calcAge: function () {
+   //    console.log(this)
+   //    return 2037 - this.birthYear;
+   // }
+
+   calcAge: function () {
+      this.age = 2037 - this.birthYear
+      return this.age;
+   },
+
+   getSummary: function () {
+      return `${this.firstName} is a ${this.calcAge()}-year old developer, and he has ${this.hasDrivenLicense ? "a" : "no"} driver\' license`;
+   }
+};
+
+console.log(dima.calcAge());
+// console.log(dima['calcAge']());
+console.log(dima.getSummary());
+

@@ -144,7 +144,7 @@ const myCountry = {
 };
 
 console.log(myCountry);
-*/
+
 
 // assignment to lecture - Dot vs. Bracket Notation
 
@@ -162,3 +162,4 @@ console.log(myCountry.population);
 
 myCountry['population'] -= 2;
 console.log(myCountry['population']);
+*/
