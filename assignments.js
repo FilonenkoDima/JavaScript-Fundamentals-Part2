@@ -244,3 +244,51 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
    }
 }
 */
+
+// assignment to lecture - The while Loop
+
+// task 1
+
+const populations = [545, 40, 30, 110];
+const percentages3 = [];
+
+const percantageOfWorld3 = population => (population / 7900) * 100;
+
+let i = 0;
+while (i < populations.length) {
+   percentages3.push(percantageOfWorld3(populations[i]));
+   i++;
+}
+
+console.log(percentages3)
+
+// task 2
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+const calcTip = bill => {
+   if (bill >= 50 && bill <= 300) {
+      tips.push(bill * 0.15);
+      return bill * 0.15 + bill;
+   } else {
+      tips.push(bill * 0.2);
+      return bill * 0.2 + bill;
+   }
+}
+
+for (let i = 0; i < bills.length; i++) {
+   totals.push(calcTip(bills[i]));
+}
+console.log(tips, totals);
+
+const calcAverage = arr => {
+   let sum = 0;
+   for (let i = 0; i < arr.length; i++)
+      sum += arr[i];
+
+   return sum / arr.length;
+}
+
+console.log(calcAverage(totals));

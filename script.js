@@ -375,7 +375,7 @@ for (let i = 0; i < 3; i++) {
    for (let j = 0; j < dima.length; j++)
       console.log(dima[j])
 }
-*/
+
 
 // lecture: The while Loop
 
@@ -396,3 +396,4 @@ while (dice !== 6) {
    dice = Math.trunc(Math.random() * 6) + 1;
    if (dice === 6) console.log('Loop is about to end...');
 }
+*/
