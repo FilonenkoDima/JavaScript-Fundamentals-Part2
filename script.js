@@ -311,3 +311,47 @@ for (let rep = 1; rep <= 10; rep++)
    console.log(`Lifting weights repetition ${rep}`);
 */
 
+// lecture: Looping, Breaking and Continuing
+
+const dima = [
+   'Dima',
+   'Filonenko',
+   2037 - 2003,
+   'developer',
+   ['Ivan', 'Mark', 'Bogdan'],
+   true
+];
+
+const types = [];
+
+for (let i = 0; i < dima.length; i++) {
+   //Reading from dima array
+   console.log(dima[i], typeof dima[i]);
+
+   //Filling types array
+   types.push(typeof dima[i])
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+   ages.push(2037 - years[i])
+}
+
+console.log(ages);
+
+// continue and break 
+console.log('--- ONLY STRING --- ')
+for (let i = 0; i < dima.length; i++) {
+   if (typeof dima[i] !== 'string') continue;
+   console.log(dima[i], typeof dima[i]);
+}
+
+console.log('--- BREAK WITH NUMBER --- ')
+for (let i = 0; i < dima.length; i++) {
+   if (typeof dima[i] === 'number') break;
+   console.log(dima[i], typeof dima[i]);
+}
