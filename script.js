@@ -309,7 +309,7 @@ console.log('Lifting weights repetition 10');
 
 for (let rep = 1; rep <= 10; rep++)
    console.log(`Lifting weights repetition ${rep}`);
-*/
+
 
 // lecture: Looping, Breaking and Continuing
 
@@ -355,3 +355,5 @@ for (let i = 0; i < dima.length; i++) {
    if (typeof dima[i] === 'number') break;
    console.log(dima[i], typeof dima[i]);
 }
+*/
+

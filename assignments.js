@@ -218,3 +218,17 @@ for (let i = 0; i < 50; i++) {
    console.log(`Voter number ${i} is currently voiting`)
 }
 */
+
+// assignment to lecture - Looping, Breaking and Continuing
+
+const populations = [545, 40, 30, 110];
+const percentages2 = [];
+
+const percantageOfWorld3 = population => (population / 7900) * 100;
+
+for (let i = 0; i < populations.length; i++) {
+   percentages2.push(percantageOfWorld3(populations[i]));
+}
+
+console.log(percentages2)
+
