@@ -145,3 +145,20 @@ const myCountry = {
 
 console.log(myCountry);
 */
+
+// assignment to lecture - Dot vs. Bracket Notation
+
+const myCountry = {
+   country: 'Urkaine',
+   capital: 'Kyiv',
+   population: 30,
+   neighbours: ['Poland', 'Moldova', 'Romania', 'Slovakia']
+};
+
+console.log(`${myCountry.country} has ${myCountry.population} million ukrainian-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
+
+myCountry.population += 2;
+console.log(myCountry.population);
+
+myCountry['population'] -= 2;
+console.log(myCountry['population']);

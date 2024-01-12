@@ -225,7 +225,7 @@ const dima = {
 };
 
 console.log(dima);
-*/
+
 
 // lecture: Dot vs. Bracket Notation
 
@@ -262,3 +262,4 @@ console.log(dima.location);
 console.log(dima.telegram);
 
 console.log(`${dima.firstName} has ${dima.friends.length} friends, and his best friend is called ${dima.friends[0]}`);
+*/
