@@ -355,7 +355,7 @@ for (let i = 0; i < dima.length; i++) {
    if (typeof dima[i] === 'number') break;
    console.log(dima[i], typeof dima[i]);
 }
-*/
+
 
 // lecture: Looping Backwards and Loops in Loops
 
@@ -375,3 +375,5 @@ for (let i = 0; i < 3; i++) {
    for (let j = 0; j < dima.length; j++)
       console.log(dima[j])
 }
+
+*/
